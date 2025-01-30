@@ -2,23 +2,6 @@
 An AI-driven financial transaction analysis tool built with NestJS (backend) and React + Tailwind CSS (frontend).
 The system performs merchant name normalization and pattern detection (e.g., recurring or subscription transactions).
 
-# Table of Contents:
-Overview
-Features
-  Merchant Name Normalization
-  Pattern Detection
-Tech Stack
-Live Demo Links
-Getting Started (Local)
-Prerequisites
-  Backend Setup
-  Frontend Setup
-API Endpoints
-  POST /api/analyze/merchant
-  POST /api/analyze/patterns
-  POST /api/upload
-Sample CSV Format
-License
 
 # Overview
 This system helps users analyze financial transactions by:
