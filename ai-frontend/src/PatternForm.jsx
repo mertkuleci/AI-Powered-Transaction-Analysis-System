@@ -18,7 +18,7 @@ export default function PatternForm() {
 
   const handleSubmit = async () => {
     try {
-      const res = await fetch('https://ai-powered-transaction-analysis-system.onrender.com//api/analyze/patterns', {
+      const res = await fetch('https://ai-powered-transaction-analysis-system.onrender.com/api/analyze/patterns', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ transactions }),
