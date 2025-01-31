@@ -10,7 +10,7 @@ export default function MerchantForm() {
     const cleanedAmount = amount.replace(',', '.');
 
     try {
-      const res = await fetch('http://localhost:3000/api/analyze/merchant', {
+      const res = await fetch('https://ai-powered-transaction-analysis-system.onrender.com/api/analyze/merchant', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

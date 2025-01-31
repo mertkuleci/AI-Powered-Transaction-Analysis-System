@@ -28,7 +28,7 @@ function UploadPage() {
 
     try {
       // Update URL to match your deployed backend route
-      const response = await fetch('http://localhost:3000/api/analyze/upload', {
+      const response = await fetch('https://ai-powered-transaction-analysis-system.onrender.com//api/analyze/upload', {
         method: 'POST',
         body: formData,
       });
