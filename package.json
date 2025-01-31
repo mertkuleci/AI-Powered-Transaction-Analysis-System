@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@stackbit/types": "^2.1.12",
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
